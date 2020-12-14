@@ -4,6 +4,7 @@ def my_each(words) # put argument(s) here
 
   while i < words.length
     puts words[i]
+    yields(words[i])
     i += 1
   end
 
